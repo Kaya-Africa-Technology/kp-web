@@ -10,19 +10,11 @@
   }
   
   .bg-image {
-    background-image: url('../public/bg-img.png');
+    background-image: url('/bg-img.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 800px;
-  }
-  .bg-img-right{
-    background-image: url('../public/dashboard.png');
-    background-size: auto;
-    background-repeat: no-repeat;
-    height: 680px;
-    /* width: 700px; */
-    background-position: right bottom;
   }
 
   .active-scroll{
