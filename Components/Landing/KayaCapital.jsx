@@ -12,11 +12,11 @@ function KayaCapital() {
           <h1 className="mb-10 text-4xl font-bold text-gray-900">Get capital for your business in minutes</h1>
           
           <div className='flex items-center mb-4'>
-            <BsFillCheckSquareFill className='mr-5'/>
+            <BsFillCheckSquareFill className='w-8 h-8 mr-5'/>
             <p className="text-base">Apply and receive capital for your business at the simple touch of a button.</p>
           </div>
           <div className='flex items-center'>
-            <BsFillCheckSquareFill className='mr-5'/>
+            <BsFillCheckSquareFill className='w-8 h-8 mr-5 '/>
             <p className="text-base">Apply and receive capital for your business at the simple touch of a button.</p>
           </div>
         </div>
