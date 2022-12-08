@@ -16,14 +16,6 @@
     background-repeat: no-repeat;
     height: 800px;
   }
-  .bg-img-right{
-    background-image: url('../public/dashboard.png');
-    background-size: auto;
-    background-repeat: no-repeat;
-    height: 680px;
-    /* width: 700px; */
-    background-position: right bottom;
-  }
 
   .active-scroll{
     @apply bg-primary;
