@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import WhyKaya from '../components/Landing/WhyKaya'
-import KayaCapital from '../components/Landing/KayaCapital'
+import WhyKaya from '../Components/Landing/WhyKaya'
+import KayaCapital from '../Components/Landing/KayaCapital'
 
 export default function Home() {
   return (
