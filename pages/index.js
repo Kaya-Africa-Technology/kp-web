@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import WhyKaya from '../Components/Landing/WhyKaya'
-import KayaCapital from '../Components/Landing/KayaCapital'
+import WhyKaya from '../components/Landing/WhyKaya'
+import KayaCapital from '../components/Landing/KayaCapital'
 
 export default function Home() {
   return (
