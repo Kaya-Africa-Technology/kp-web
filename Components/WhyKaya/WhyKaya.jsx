@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function WhyKaya() {
     return (
-    <section className='my-20'>
+    <section className='my-20 mx-4'>
         <div className='flex items-center justify-between flex-wrap lg:flex-nowrap gap-20'>
             <div className='lg:w-2/5 sm:w-full m:w-full'>
                 <div className='flex flex-nowrap items-center gap-2'>
