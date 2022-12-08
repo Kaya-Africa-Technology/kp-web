@@ -1,8 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
+
+@layer base{
+  body{
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .bg-image {
+    background-image: url('../public/bg-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+  }
+
+  .active-scroll{
+    @apply bg-primary;
+  }
+  .navbar{
+    @apply sticky top-0 left-0 w-full h-20 shadow-md bg-primary z-[999] transition-all ease-in-out duration-1000
+  }
+  .navbar-transparent{
+    @apply md:bg-transparent bg-primary
+  }
+  .navbar-container{
+    @apply lg:container mx-auto flex items-center justify-between px-4 py-4 lg:px-2
+  }
+  .menu-container-scroll{
+    @apply hidden md:flex md:items-center md:space-x-10
+  }
+  .menu-container{
+    @apply text-primary hidden md:flex md:items-center md:space-x-10
+  }
+  .menu-container-mobile{
+    @apply md:hidden absolute left-0 flex flex-col space-y-7 w-full bg-primary px-5  md:px-5 py-10
+  }
+  .menu-toggle-in{
+    @apply translate-y-0 transition-all duration-500 ease-in z-[999]
+  }
+  .menu-toggle-out{
+    @apply -translate-y-[200%] transition-all duration-500 ease-in z-[999]
+  }
+
+  .btn{
+    @apply px-5 py-3 text-center rounded cursor-pointer;
+  }
+  .btn-primary{
+    @apply text-secondary bg-primary;
+  }
+  .btn-secondary{
+    @apply text-primary bg-secondary;
+  }
+  .btn-border-primary{
+    @apply border text-primary border-primary;  
+  }
+  .btn-border-secondary{
+    @apply border text-secondary border-secondary;
+  }
+
+  .toggle-btn-x{
+    @apply text-3xl md:hidden text-secondary cursor-pointer
+  }
+  .toggle-btn-menu{
+    @apply text-3xl md:hidden text-secondary cursor-pointer
+  }
+}
+
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -10,4 +77,4 @@
     color: white;
     background: black;
   }
-}
+} */
