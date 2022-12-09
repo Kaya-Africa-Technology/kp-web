@@ -1,7 +1,7 @@
 export const Data = [
 
     {
-        question : "How can I book an Artisan?",
+        question : "How can I create an account?",
         answer : "Lorem ipsum dolor sit amet consectetur. Nam varius lacus lacus suspendisse vitae. Vitae nunc eget tristique malesuada nunc"
     },
     {
@@ -13,7 +13,7 @@ export const Data = [
         answer : "Lorem ipsum dolor sit amet consectetur. Nam varius lacus lacus suspendisse vitae. Vitae nunc eget tristique malesuada nunc"
     },
     {
-        question : "Do I have to pay to register?",
+        question : "How long does it take to open a bank account with Kayapay?",
         answer : "Lorem ipsum dolor sit amet consectetur. Nam varius lacus lacus suspendisse vitae. Vitae nunc eget tristique malesuada nunc"
     },
 ]
