@@ -2,6 +2,7 @@ import Head from 'next/head'
 import WhyKaya from '../Components/Landing/WhyKaya'
 import KayaCapital from '../Components/Landing/KayaCapital'
 import AboutKaya from '../Components/Landing/AboutKaya'
+import Faqs from '../Components/Landing/Faqs'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <WhyKaya />
         <KayaCapital />
         <AboutKaya />
+        <Faqs />  
       </div>
      
     </div>
