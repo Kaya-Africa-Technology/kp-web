@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import WhyKaya from '../Components/Landing/WhyKaya'
 import KayaCapital from '../Components/Landing/KayaCapital'
+import AboutKaya from '../Components/Landing/AboutKaya'
+
 
 export default function Home() {
   return (
@@ -13,8 +15,9 @@ export default function Home() {
       <div className="">
         <WhyKaya />
         <KayaCapital />
+        <AboutKaya />
       </div>
-      <p>here too</p>
+     
     </div>
   )
 }

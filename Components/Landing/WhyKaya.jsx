@@ -4,7 +4,7 @@ import SubHeader from '../Common/SubHeader';
 
 function WhyKaya() {
   return (
-    <section className='container px-4 mx-auto my-24'>
+    <section className='container px-4 mx-auto my-24 lg:my-32'>
         <div className='flex flex-col flex-wrap justify-between space-y-10 lg:space-y-0 lg:items-center lg:flex-row'>
             <div className='flex-1'>
               <SubHeader title="WHY KAYAPAY"/>
