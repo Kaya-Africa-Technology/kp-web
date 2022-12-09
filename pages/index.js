@@ -3,6 +3,7 @@ import WhyKaya from '../Components/Landing/WhyKaya'
 import KayaCapital from '../Components/Landing/KayaCapital'
 import AboutKaya from '../Components/Landing/AboutKaya'
 import Faqs from '../Components/Landing/Faqs'
+import Contact from '../Components/Landing/Contact'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <KayaCapital />
         <AboutKaya />
         <Faqs />  
+        <Contact />
       </div>
      
     </div>
