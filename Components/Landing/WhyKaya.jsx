@@ -15,22 +15,22 @@ function WhyKaya() {
                 <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-y-20 gap-y-12'>
                     <div>
                         <h1 className="mb-2 text-2xl text-left w-9 lg:text-3xl">01</h1>
-                        <h2 className="mb-3 text-2xl font-bold text-left">Business Loans</h2>
+                        <h2 className="mb-3 text-xl font-bold text-left lg:text-2xl">Business Loans</h2>
                         <p className="h-12 text-base w-80" >Convert your receivables into instant cash and get credited in less than 24 hours.</p>
                     </div>
                     <div>
                         <h1 className="mb-2 text-2xl text-left w-9 lg:text-3xl">02</h1>
-                        <h2 className="mb-3 text-2xl font-bold text-left ">Multi-Currency Banking</h2>
+                        <h2 className="mb-3 text-xl font-bold text-left lg:text-2xl">Multi-Currency Banking</h2>
                         <p className="h-12 text-base w-80" >Convert your receivables into instant cash and get credited in less than 24 hours.</p>
                     </div>
                     <div>
                         <h1 className="mb-2 text-2xl text-left w-9 lg:text-3xl">03</h1>
-                        <h2 className="text-2xl font-bold text-left gitmb-3">Secure Payments</h2>
+                        <h2 className="mb-3 text-xl font-bold text-left lg:text-2xl">Secure Payments</h2>
                         <p className="h-12 text-base w-80" >Convert your receivables into instant cash and get credited in less than 24 hours.</p>
                     </div>
                     <div>
                         <h1 className="mb-2 text-2xl text-left w-9 lg:text-3xl">04</h1>
-                        <h2 className="mb-3 text-2xl font-bold text-left">Transparent Service</h2>
+                        <h2 className="mb-3 text-xl font-bold text-left lg:text-2xl">Transparent Service</h2>
                         <p className="h-12 text-base w-80" >Convert your receivables into instant cash and get credited in less than 24 hours.</p>
                     </div>
             </div>
