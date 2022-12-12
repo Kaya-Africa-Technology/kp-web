@@ -33,7 +33,7 @@ function Faqs() {
                   <>
                     <div classNam="">
                       <div
-                        className={`flex items-center justify-between w-full px-5 lg:px-10 py-5 transition-all duration-300 ease-in-out border-b ${
+                        className={`flex items-center justify-between w-full px-5 lg:px-10 py-5 transition-all duration-300 ease-in-out border-b border-darkGray/40 ${
                           clicked === index
                             ? "rounded-t-lg rounded-none mb-4 font-bold"
                             : "rounded-lg"
