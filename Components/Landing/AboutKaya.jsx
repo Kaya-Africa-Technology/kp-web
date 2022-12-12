@@ -4,7 +4,7 @@ import SubHeader from "../Common/SubHeader";
 
 function AboutKaya() {
   return (
-    <section className="py-14 bg-lightGray lg:my-32">
+    <section className="py-14 bg-lightGray lg:my-5">
       <div className="container px-4 mx-auto">
         <div className="flex flex-col items-center justify-between space-y-16 lg:flex-row">
           <div className="flex-1">

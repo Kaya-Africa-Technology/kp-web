@@ -12,7 +12,7 @@ function WhyKaya() {
                 <Image src='/img-placeholder.png' width={580} height={288} alt='decorative image' />
             </div>
             <div className="flex-1 w-full">
-                <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-y-20 gap-y-12'>
+                <div className='grid grid-cols-1 lg:gap-x-20 lg:grid-cols-2 lg:gap-y-20 gap-y-12'>
                     <div>
                         <h1 className="mb-2 text-2xl text-left w-9 lg:text-3xl">01</h1>
                         <h2 className="mb-3 text-xl font-bold text-left lg:text-2xl">Business Loans</h2>
