@@ -30,16 +30,36 @@ function Footer() {
               <h1 className="mb-5 text-lg font-bold text-darkGray">Services</h1>
               <ul>
                 <li className="mb-3 text-base font-medium cursor-pointer text-gray text-md">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">About</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    About
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">FAQs</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    FAQs
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">Mutual Funds</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    Mutual Funds
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">Fixed deposits</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    Fixed deposits
+                  </a>
                 </li>
               </ul>
             </div>
@@ -47,16 +67,36 @@ function Footer() {
               <h1 className="mb-5 text-lg font-bold text-darkGray">Company</h1>
               <ul>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">About</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    About
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">Pricing</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    Pricing
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">Careers</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    Careers
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">Press & Media</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    Press & Media
+                  </a>
                 </li>
               </ul>
             </div>
@@ -64,19 +104,44 @@ function Footer() {
               <h1 className="mb-5 text-lg font-bold text-darkGray">Support</h1>
               <ul>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">Contact</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    Contact
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">Support Portals</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    Support Portals
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">List Of Charges</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    List Of Charges
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">Downloads & Resources</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    Downloads & Resources
+                  </a>
                 </li>
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
-                  <a href="#" className="hover:text-darkGray hover:underline-offset-1 hover:underline">Videos</a>
+                  <a
+                    href="#"
+                    className="hover:text-darkGray hover:underline-offset-1 hover:underline"
+                  >
+                    Videos
+                  </a>
                 </li>
               </ul>
             </div>
