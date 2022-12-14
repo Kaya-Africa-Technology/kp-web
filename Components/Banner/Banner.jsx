@@ -3,11 +3,11 @@ import React from "react";
 export default function Banner() {
   return (
     <>
-      <div className="container px-4 mx-auto mt-10">
+      <section className="container px-4 mx-auto mt-10">
         <div className="grid grid-cols-1 gap-4 gap-y-32 md:gap-y-0 lg:grid-cols-2">
           <div className="items-center py-32">
             <h1 className="max-w-lg mb-5 text-5xl font-bold text-white leading-[4rem]">
-              Finance your Trips with Kaya-pay.
+              Finance your trips with Kayapay.
             </h1>
             <p className="text-base leading-10 text-white w-80 h-14">
               The finance platform for your supply chain.
@@ -32,13 +32,13 @@ export default function Banner() {
             <div className="absolute bottom-[-130px] right-0 mt-10 obghtject-right-bottom hidden lg:block">
               <img
                 src="/dashboard.png"
-                alt=""
+                alt="dashboard-image"
                 className="w-auto h-auto lg:h-full  bottom-[-1px]"
               />
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

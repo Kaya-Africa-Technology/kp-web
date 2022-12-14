@@ -7,9 +7,9 @@ function Contact() {
         <div className='container px-4 mx-auto my-2'>
             <div className="flex flex-col-reverse items-center justify-between space-y-14 lg:space-x-14 lg:flex-row">
                 <div className='flex-1 w-full'>
-                    <input type="text" className='w-full py-3 mb-4 border-0 border-b-2 rounded outine-none text-primary/80 placeholder:text-gray/90 border-gray bg-extraLightGray/10 focus:ring-0 focus:outline-none focus:border-b-2 focus:border-gray' placeholder='Enter your full name' />
-                    <input type="text" className='w-full py-3 mb-4 border-0 border-b-2 rounded outine-none text-primary/80 placeholder:text-gray/90 border-gray bg-extraLightGray/10 focus:ring-0 focus:outline-none focus:border-b-2 focus:border-gray' placeholder='Enter your email' />
-                    <input type="text" className='w-full py-3 mb-4 border-0 border-b-2 rounded outine-none text-primary/80 placeholder:text-gray/90 border-gray bg-extraLightGray/10 focus:ring-0 focus:outline-none focus:border-b-2 focus:border-gray' placeholder='Enter your Business name' />
+                    <input type="text" className='contact-input' placeholder='Enter your full name' />
+                    <input type="text" className='contact-input' placeholder='Enter your email' />
+                    <input type="text" className='contact-input' placeholder='Enter your Business name' />
                     <textarea name="" cols="30" className='w-full py-3 mb-4 border-0 border-b-2 rounded outine-none text-primary/80 placeholder:text-gray/90 border-gray bg-extraLightGray/10 focus:ring-0 focus:outline-none focus:border-b-2 focus:border-gray' placeholder='Enter your Business name'></textarea>
                     <button type="submit" className='w-full py-3 px-2.5 mb-4 text-base font-medium rounded bg-primary'>Send Message</button>
                 </div>

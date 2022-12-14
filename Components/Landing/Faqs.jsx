@@ -25,8 +25,8 @@ function Faqs() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-between space-x-0 space-y-12 lg:space-x-10 lg:flex-row">
-          <div className="flex-1 w-full">
+        <div className="flex flex-col items-center justify-between space-x-0 space-y-12 lg:space-x-16 lg:flex-row">
+          <div className="w-full basis-1/2">
             <div className="flex flex-col justify-center space-y-7">
               {Data.map((item, index) => {
                 return (
