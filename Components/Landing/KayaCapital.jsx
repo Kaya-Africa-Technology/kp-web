@@ -28,8 +28,8 @@ function KayaCapital() {
             <p className="text-base">Apply and receive capital for your business at the simple touch of a button.</p>
           </div>
         </div>
-        <div className="w-full">
-          <div className="mb-0 lg:-mb-40">
+        <div className="w-full lg:place-self-end">
+          <div className="mb-0">
               <Image src='/img-placeholder.png' width={580} height={288} alt='decorative image' />
           </div>
         </div>
