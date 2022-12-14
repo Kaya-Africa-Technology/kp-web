@@ -14,7 +14,7 @@ function Faqs() {
   };
 
   return (
-    <section className="py-24">
+    <section className="py-24 duration-500 transition-all ease-in-out">
       <div className="container px-4 mx-auto">
         <div className="mb-24">
           <h1 className="mb-3 text-3xl font-bold text-center lg:text-4xl">
@@ -25,8 +25,8 @@ function Faqs() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-between space-x-0 space-y-12 lg:space-x-16 lg:flex-row">
-          <div className="w-full basis-1/2">
+        <div className="grid grid-cols-1 gap-y-10 duration-500 transition-all ease-in-out lg:place-items-center lg:grid-cols-2 lg:gap-y-0 lg:gap-x-10">
+          <div className="w-full">
             <div className="flex flex-col justify-center space-y-7">
               {Data.map((item, index) => {
                 return (
@@ -61,7 +61,7 @@ function Faqs() {
               })}
             </div>
           </div>
-          <div className="flex-1">
+          <div className="w-full">
             <Image
               src="/img-placeholder.png"
               width={580}
