@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <footer className="border-b border-gray/10 bg-[#F8F8F8] py-7 mt-10">
+      <footer className="bg-[#F8F8F8] py-7 mt-10 h-64 absolute bottom-0 w-full">
         <div className="container px-4 mx-auto">
           <div className="grid grid-cols-1 gap-y-10 lg:place-items-center lg:grid-cols-4 lg:gap-y-0 lg:gap-x-10">
             <div>
@@ -32,7 +32,7 @@ function Footer() {
                 <li className="mb-3 text-base font-medium cursor-pointer text-gray text-md">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     About
                   </a>
@@ -40,7 +40,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     FAQs
                   </a>
@@ -48,7 +48,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     Mutual Funds
                   </a>
@@ -56,7 +56,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     Fixed deposits
                   </a>
@@ -69,7 +69,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     About
                   </a>
@@ -77,7 +77,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     Pricing
                   </a>
@@ -85,7 +85,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     Careers
                   </a>
@@ -93,7 +93,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     Press & Media
                   </a>
@@ -106,7 +106,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     Contact
                   </a>
@@ -114,7 +114,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     Support Portals
                   </a>
@@ -122,7 +122,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     List Of Charges
                   </a>
@@ -130,7 +130,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     Downloads & Resources
                   </a>
@@ -138,7 +138,7 @@ function Footer() {
                 <li className="mb-3 text-base cursor-pointer text-md text-gray">
                   <a
                     href="#"
-                    className="hover:text-darkGray hover:underline-offset-1 hover:underline transition-all duration-700 ease-in-out"
+                    className="transition-all duration-700 ease-in-out hover:text-darkGray hover:underline-offset-1 hover:underline"
                   >
                     Videos
                   </a>
@@ -147,12 +147,13 @@ function Footer() {
             </div>
           </div>
         </div>
-      </footer>
-      <div className="flex flex-col items-center justify-center bg-[#F8F8F8] p-5 text-center">
+         <div className="flex flex-col items-center justify-center bg-[#F8F8F8] p-5 text-center border-t border-gray/10 ">
         <h1 className="font-bold text-md text-gray">
           © 2022 Kayapay. All Rights Reserved.{" "}
         </h1>
       </div>
+      </footer>
+     
     </>
   );
 }

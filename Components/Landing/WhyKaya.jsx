@@ -24,7 +24,7 @@ function WhyKaya() {
           <div className="grid grid-cols-1 gap-y-12 lg:gap-x-10 lg:grid-cols-2 lg:gap-y-20 ">
             <div className="w-full">
               <h1 className="mb-2 text-2xl text-left w-9 lg:text-2xl">01</h1>
-              <h2 className="mb-3 text-lg font-bold text-left lg:text-xl">
+              <h2 className="mb-3 text-xl font-bold text-left lg:text-xl">
                 Business Loans
               </h2>
               <p className="text-base leading-snug break-all lg:text-base">
