@@ -1,6 +1,6 @@
 import { HiChevronDown } from "react-icons/hi2";
-import Link
- from "next/link";
+import Link from "next/link";
+
 export default function Menu({ scroll, menu }) {
   return (
     <>

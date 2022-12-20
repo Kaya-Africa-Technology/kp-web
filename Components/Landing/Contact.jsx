@@ -3,15 +3,17 @@ import { FaTwitter, FaFacebook,FaInstagramSquare } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className='py-5 bg-darkGray duration-500 transition-all ease-in-out'>
+    <section className='py-16 transition-all duration-500 ease-in-out bg-darkGray'>
         <div className='container px-4 mx-auto my-2'>
-            <div className="grid grid-cols-1 gap-y-10 duration-500 transition-all ease-in-out lg:place-items-center lg:grid-cols-2 lg:gap-y-0 lg:gap-x-10">
+            <div className="grid grid-cols-1 transition-all duration-500 ease-in-out gap-y-10 lg:place-items-center lg:grid-cols-2 lg:gap-y-0 lg:gap-x-32">
                 <div className='w-full'>
-                    <input type="text" className='contact-input' placeholder='Enter your full name' />
-                    <input type="text" className='contact-input' placeholder='Enter your email' />
-                    <input type="text" className='contact-input' placeholder='Enter your Business name' />
-                    <textarea name="" cols="30" className='w-full py-3 mb-4 border-0 border-b-2 rounded outine-none text-primary/80 placeholder:text-gray/90 border-gray bg-extraLightGray/10 focus:ring-0 focus:outline-none focus:border-b-2 focus:border-gray' placeholder='Enter your Business name'></textarea>
-                    <button type="submit" className='w-full py-3 px-2.5 mb-4 text-base font-medium rounded bg-primary'>Send Message</button>
+                    <div className=''>
+                        <input type="text" className='contact-input' placeholder='Enter your full name' />
+                        <input type="text" className='contact-input' placeholder='Enter your email' />
+                        <input type="text" className='contact-input' placeholder='Enter your Business name' />
+                        <textarea name="" rows="5" className='contact-input' placeholder='Enter your Business name'></textarea>
+                        <button type="submit" className='w-full py-3 px-2.5 mb-4 text-base font-medium rounded bg-primary'>Send Message</button>
+                    </div>
                 </div>
                 <div className='w-full'>
                     <div className='mb-7'>
@@ -56,7 +58,7 @@ function Contact() {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

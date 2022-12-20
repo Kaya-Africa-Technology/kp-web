@@ -4,6 +4,7 @@ import { MenuItems } from "../../utils/menuItems";
 import Menu from "./Menu";
 import NavOutLineButton from "../Common/NavOutLineButton";
 import NavFillButton from "../Common/NavFillButton";
+import Link from "next/link";
 
 function Navbar() {
   const [navMenu, setNavMenu] = useState(false);
@@ -26,7 +27,9 @@ function Navbar() {
     <>
       <div className={scroll ? "navbar" : "navbar-transparent"}>
         <div className="navbar-container">
-          <img src="/logo.png" alt="" height="50" width="50" />
+          <Link href="/">
+            <img src="/logo.png" alt="" height="50" width="50" />
+          </Link>
           <button onClick={toggleNavMenu}>
             {navMenu ? (
               <RxCross2 className="toggle-btn-x" />
