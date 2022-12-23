@@ -13,13 +13,13 @@ export default function Menu({ scroll, menu }) {
           <Link
             href={`${menu.path}`}
             // className={`${router.asPath === "/" ? 'text-secondary' : 'text-primary'} ${scroll ? 'text-primary' : 'text-primary'} mr-2`}
-            className={`mr-2 ${router.asPath !== "/" ? "text-secondary" : scroll ? "text-secondary" : "text-primary"}`}
+            className={`mr-2 ${router.asPath !== "/" ? "text-secondary" : scroll ? "text-secondary" : "lg:text-primary"}`}
           >
             {menu.name}
           </Link>
           <HiChevronDown
             className={`${
-              router.asPath !== "/" ? "text-secondary" : scroll ? "text-secondary" : "text-primary"
+              router.asPath !== "/" ? "text-secondary" : scroll ? "text-secondary" : "lg:text-primary"
             } cursor-pointer`}
           />
         </li>
@@ -28,7 +28,7 @@ export default function Menu({ scroll, menu }) {
           <Link
             href={`${menu.path}`}
             // className={`${router.asPath !== "/" ? 'text-secondary' : "text-primary"} ${scroll ? 'text-secondary' : "text-primary"}`}
-            className={`${router.asPath !== "/" ? "text-secondary" : scroll ? "text-secondary" : "text-primary"}`}
+            className={`${router.asPath !== "/" ? "text-secondary" : scroll ? "text-secondary" : "lg:text-primary"}`}
           >
             {menu.name}
           </Link>

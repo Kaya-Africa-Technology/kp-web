@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <>
-      <div className={`${scroll ? "navbar" :   "navbar-transparent"}`}>
+      <div className={`${router.asPath !== "/" ? "border-b border-gray/10 shadow-sm" : scroll ? "navbar" :   "navbar-transparent"}`}>
         <div className="navbar-container">
           <Link href="/">
             <img src="/logo.png" alt="" height="50" width="50" />
