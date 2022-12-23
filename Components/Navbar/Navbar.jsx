@@ -4,10 +4,13 @@ import { MenuItems } from "../../utils/menuItems";
 import Menu from "./Menu";
 import NavOutLineButton from "../Common/NavOutLineButton";
 import NavFillButton from "../Common/NavFillButton";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 function Navbar() {
   const [navMenu, setNavMenu] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const router = useRouter();
 
   const toggleNavMenu = () => {
     setNavMenu(!navMenu);
@@ -24,9 +27,11 @@ function Navbar() {
 
   return (
     <>
-      <div className={scroll ? "navbar" : "navbar-transparent"}>
+      <div className={`${router.asPath !== "/" ? "border-b border-gray/10 shadow-sm" : scroll ? "navbar" :   "navbar-transparent"}`}>
         <div className="navbar-container">
-          <img src="/logo.png" alt="" height="50" width="50" />
+          <Link href="/">
+            <img src="/logo.png" alt="" height="50" width="50" />
+          </Link>
           <button onClick={toggleNavMenu}>
             {navMenu ? (
               <RxCross2 className="toggle-btn-x" />
