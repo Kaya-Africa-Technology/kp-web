@@ -2,7 +2,7 @@ import React from 'react'
 
 function about() {
   return (
-    <div>about</div>
+    <div className='py-64 h-50'>about</div>
   )
 }
 
