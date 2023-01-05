@@ -76,6 +76,10 @@
   .contact-input{
     @apply w-full py-3 border-0 border-b-2 rounded mb-7 text-primary/80 placeholder:text-primary/80 border-gray bg-extraLightGray/10 focus:ring-0 focus:outline-none focus:border-b-2 focus:border-gray;
   }
+  
+  .contact-input-2{
+    @apply w-full py-3 mb-4 bg-opacity-0 border rounded-md border-gray/40 bg-lightGray focus:ring-0 focus:outline-none focus:border-b focus:border-gray
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {
