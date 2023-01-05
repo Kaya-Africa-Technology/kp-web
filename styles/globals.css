@@ -19,7 +19,9 @@
     background-repeat: no-repeat;
     height: 800px;
   }
-
+  .section-container{
+    @apply container px-4 mx-auto
+  }
   .active-scroll{
     @apply bg-primary;
   }
