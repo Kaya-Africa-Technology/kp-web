@@ -6,6 +6,7 @@ import NavOutLineButton from "../Common/NavOutLineButton";
 import NavFillButton from "../Common/NavFillButton";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import MobileMenu from "./MobileMenu";
 
 function Navbar() {
   const [navMenu, setNavMenu] = useState(false);
@@ -15,6 +16,10 @@ function Navbar() {
   const toggleNavMenu = () => {
     setNavMenu(!navMenu);
   };
+  
+  const closeMobileMenu = () => { 
+    setNavMenu(false);
+  }
 
   const handleScroll = () => {
     window.scrollY >= 70 ? setScroll(true) : setScroll(false);
@@ -58,7 +63,7 @@ function Navbar() {
           } menu-container-mobile`}
         >
           {MenuItems.map((menu, index) => {
-            return <Menu menu={menu} key={index} scroll={scroll} />;
+            return <MobileMenu menu={menu} key={index} scroll={scroll} closeMobileMenu={closeMobileMenu} />;
           })}
           <a href="#" className="w-32 px-5 py-2 text-center border rounded bg-primary border-secondary text-secondary">SIGN IN</a>
           <a href="#" className="w-32 px-5 py-2 text-center rounded bg-secondary text-primary">SIGN UP</a>

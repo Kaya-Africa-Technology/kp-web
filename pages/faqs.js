@@ -25,7 +25,7 @@ function Faqs() {
                         {Data.map((item, index) => {
                             return (
                                 <>
-                                    <div classNam="">
+                                    <div className="">
                                         <div
                                             className={`flex items-center justify-between w-full px-5 lg:px-10 py-5 transition-all duration-300 ease-in-out border-b border-darkGray/40 ${clicked === index
                                                     ? "rounded-t-lg rounded-none mb-4 font-bold"
@@ -44,7 +44,7 @@ function Faqs() {
                                             </span>
                                         </div>
                                         {clicked === index ? (
-                                            <p classNam="text-base tracking-wider pl-5 transition-all duration-500 text-gray">
+                                            <p className="pl-5 text-base tracking-wider transition-all duration-500 text-gray">
                                                 {item.answer}
                                             </p>
                                         ) : null}
